@@ -1,7 +1,7 @@
-import Login from "./components/pages/Login.jsx";
-// import { Input } from "./components/atoms/Input";
+import Login from './Components/pages/loginPage/LoginPage'
+
 function App() {
-  return <Login />;
+  return <Login />
 }
 
 export default App;
