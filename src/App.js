@@ -1,13 +1,7 @@
-import './App.css';
-
+import Login from "./components/pages/Login.jsx";
+// import { Input } from "./components/atoms/Input";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        Edu React App
-      </header>
-    </div>
-  );
+  return <Login />;
 }
 
 export default App;
