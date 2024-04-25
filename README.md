@@ -1,3 +1,7 @@
+# FIGMA for EduReact App
+https://www.figma.com/file/xRUfBZOHLcvfe8f5Y6dYcg/Edu-React-App?type=design&node-id=1-2&mode=design&t=ZTlpWvrw9QAOMNiH-0
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
