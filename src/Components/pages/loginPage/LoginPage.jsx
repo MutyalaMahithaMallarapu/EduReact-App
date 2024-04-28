@@ -1,26 +1,24 @@
-import backgroundImage from "../../../assets/himalaya_mountains_4k.jpg";
-import  ERAInput  from "../../atoms/ERAInput/ERAInput";
+import { Link } from "react-router-dom";
+import ERAButton from "../../atoms/ERAButton/ERAButton";
+import ERAInput from "../../atoms/ERAInput/ERAInput";
+import "./LoginPage.css";
 
 const Login = () => {
   return (
-    <div
-      style={{
-        background: `url(${backgroundImage})`,
-        height: "100vh",
-        backgroundSize: "cover",
-      }}
-    >
-      <div
-        style={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-        }}
-      >
-        
-<br />
-        <ERAInput name="User Name" type ="Text"/>
-        <ERAInput name="Password" type ="Password"/>
+    <div className="backgroundStyling">
+      <div className="loginStyle">
+        <p className="haveAnAcc"> Have an account ? </p>
+        <ERAInput name="User Name" type="Text" />
+        <ERAInput name="Password" type="Password" />
+        <ERAButton Name="LOGIN" />
+        <p className="signUp">
+          {" "}
+          New to EduReact App,{" "}
+          <Link to="/signup" className="signUpLink">
+            {" "}
+            Signup{" "}
+          </Link>{" "}
+        </p>
       </div>
     </div>
   );

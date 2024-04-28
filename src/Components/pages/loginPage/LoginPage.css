@@ -1,0 +1,29 @@
+
+
+.backgroundStyling {
+    background: url('../../../assets/LoginSignupBackGround.jpg');
+    height: 100vh;
+    background-size: cover;
+    filter: contrast(90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.haveAnAcc{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding-left: 12px;
+}
+
+.signUp{
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding-left: 12px;
+}
+
+.signUpLink{
+    color: #77cbcb;
+}
