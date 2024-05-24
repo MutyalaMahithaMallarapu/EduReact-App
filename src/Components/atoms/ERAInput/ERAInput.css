@@ -12,9 +12,7 @@
     outline: none;
     margin-bottom: 15px;
 }
-
 .inputStyle:hover{
-    
     outline: #dfdddd9c solid 2px;
     background-color: transparent;
 }

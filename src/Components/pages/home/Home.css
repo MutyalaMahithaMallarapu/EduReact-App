@@ -1,0 +1,11 @@
+.homePage{
+    background-size: cover;
+     background: linear-gradient(#f0f0f0, #DEF7FD, #8FDCEB);
+    min-height: 100vh;
+}
+
+.headLine{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}

@@ -12,12 +12,10 @@ const Login = () => {
         <ERAInput name="Password" type="Password" />
         <ERAButton Name="LOGIN" />
         <p className="signUp">
-          {" "}
-          New to EduReact App,{" "}
+          New to EduReact App,
           <Link to="/signup" className="signUpLink">
-            {" "}
-            Signup{" "}
-          </Link>{" "}
+            Signup
+          </Link>
         </p>
       </div>
     </div>

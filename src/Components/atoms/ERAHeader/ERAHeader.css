@@ -1,0 +1,98 @@
+.logo {
+    border-radius: 50%;
+    height: 50px;
+    padding: 10px
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    margin: 0px;
+}
+
+.SignupBtn {
+    background: #77cbcb;
+    border: none;
+    height: 40px;
+    width: 90px;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 40px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: none;
+    margin-bottom: 15px;
+    margin: 2px;
+}
+.SignupBtn:hover{
+    background:  #5abbbb;
+    color: white !important;
+}
+.LoginBtn {
+    background: #ffffff;
+    border: none;
+    height: 40px;
+    width: 90px;
+    color: black !important;
+    border-radius: 40px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: none;
+    margin-bottom: 15px;
+    margin: 2px;
+}
+.LoginBtn:hover{
+    background: #eaeaea;
+    color: black;
+}
+
+.buttonContainer {
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.linksContainer {
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: none;
+    background-color: white;
+    align-items: center;
+    color: #0096C7;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    height: 35px;
+    margin-top: 10px;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.selectStyle {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    color: #0096C7;
+    border: none;
+    line-height: 10px;
+    width: 70px;
+    font-size: 16px;
+}
+
+.links{
+    text-decoration: none;
+    color: #0096C7;
+}

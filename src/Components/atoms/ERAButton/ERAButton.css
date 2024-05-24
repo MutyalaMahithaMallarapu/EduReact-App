@@ -14,5 +14,6 @@
 }
 .buttonStyle:hover {
     outline: #77cbcb solid 2px;
-    background-color: #065353;
+    background-color: #43c1c1;
+    /* background-color: #1f9c9c; */
 }
