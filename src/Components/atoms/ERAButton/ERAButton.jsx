@@ -3,18 +3,27 @@ import './ERAButton.css'
 const ERAButton = (props) => {
 
     const handleOnClick = () => {
-        if (props.Name === 'LOGIN') {
-            alert("Loged in Successfully")
-           window.location = '/home'
-        }
-     else if(props.Name === 'SIGNUP'){
-            alert("Sucessfully Registered")
-            window.location = '/login'
+        switch (props.Name) {
+            case 'LOGIN': {
+                alert("Loged in Successfully")
+                window.location = '/home'
+                break
+            }
+            case 'SIGNUP': {
+                alert("Sucessfully Registered")
+                window.location = '/login'
+                break
+            }
+            case 'What is React?': {
+                props.handleOnReactDefClick(true)
+                break
+            }
         }
     }
 
     return <div>
-    <button className="buttonStyle" onClick={handleOnClick}> { props.Name } </button>
+        <button className={props.isButtonWhite ? "whiteButtonStyle" : "buttonStyle"} onClick={handleOnClick}> <b>{props.Name} </b></button>
     </div>
+
 }
 export default ERAButton
