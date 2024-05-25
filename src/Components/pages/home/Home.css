@@ -4,11 +4,17 @@
     min-height: 100vh;
 }
 
+.heading{
+    margin: 20px;
+}
+
 .headLine{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     color: #1a7e7e;
+    margin: 0px;
 }
 
 .reactDef{
@@ -25,5 +31,11 @@
     background-color: white;
     padding: 20px;
     margin: 20px;
+    border-radius: 10px;
     
+}
+
+.hide{
+    color: blue;
+    padding: 10px;
 }

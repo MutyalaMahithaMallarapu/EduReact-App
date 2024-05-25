@@ -1,5 +1,5 @@
 import image from '../../../assets/ReactLogo.png'
-import ERAButton from '../ERAButton/ERAButton'
+import ERAButton from '../../atoms/ERAButton/ERAButton'
 import './ERAHeader.css'
 
 const ERAHeader = () => {

@@ -1,0 +1,12 @@
+.onHover{
+    color: blue;
+}
+
+.onHover:hover  {
+    display: block;
+    color: blue;
+}
+
+.hide{
+    display: none;
+}
