@@ -32,6 +32,7 @@ const SignUp = () => {
         position: "top-right",
         autoClose: 3000,
       });
+      window.location.href = "/login";
     } catch (error) {
       console.log(error.message);
       toast.error(error.message, {
